@@ -9,24 +9,35 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/dipi-unimore/mininet-gym">
+  <a href="https://github.com/dipi-unimore/mininet-gym-icaart-2026">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">MininetGym</h3>
 
-  <p align="center">
-    Reinforcement learning Mininet OpenDayLight
+  <p>
     This project aims to provide a basic framework for DDoS mitigation using reinforcement learning (Deep and not).
     The network is implemented using Mininet (based on Software-Defined networking).
     The design of the solution is inspired by the work "MininetGym: A modular SDN-based simulation environment for reinforcement learning in cybersecurity" by Salvo Finistrella and others here.
     <br />
     <a href="https://www.sciencedirect.com/science/article/pii/S235271102500278X"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/dipi-unimore/mininet-gym/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+  </p>
+    <div style="border: 2px solid #0056b3; padding: 10px; margin-top: 15px; border-radius: 5px; background-color: #f7f9fc;" align="left">
+        <h4 style="margin-top: 0; color: #0056b3;">**ICAART 2026 Conference Fork**</h4>
+        <p>
+            **ATTENTION:** This repository is a **fork** of the project version used to conduct the experiments presented in the paper submitted for the **<a href="https://icaart.scitevents.org/">ICAART 2026</a>** conference.
+        </p>
+        <p>
+            The main, evolving project is available here: <a href="https://github.com/dipi-unimore/mininet-gym">dipi-unimore/mininet-gym</a>.
+            <br />
+            <a href="https://icaart.scitevents.org/"><img src="images/icaart_logo.png" alt="ICAART 2026 Logo" width="150"></a>
+        </p>
+    </div>
+  <p>
+    <a href="https://github.com/dipi-unimore/mininet-gym-icaart-2026/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/dipi-unimore/mininet-gym/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/dipi-unimore/mininet-gym-icaart-2026/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
