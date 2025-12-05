@@ -27,11 +27,11 @@
         <h4 style="margin-top: 0; color: #0056b3;">**ICAART 2026 Conference Fork**</h4>
         <p>
             **ATTENTION:** This repository is a **fork** of the project version used to conduct the experiments presented in the paper submitted for the **<a href="https://icaart.scitevents.org/">ICAART 2026</a>** conference.
+                      <br />
+            <a href="https://icaart.scitevents.org/"><img src="images/icaart_logo.png" alt="ICAART 2026 Logo" width="250"></a>
         </p>
         <p>
             The main, evolving project is available here: <a href="https://github.com/dipi-unimore/mininet-gym">dipi-unimore/mininet-gym</a>.
-            <br />
-            <a href="https://icaart.scitevents.org/"><img src="images/icaart_logo.png" alt="ICAART 2026 Logo" width="150"></a>
         </p>
     </div>
   <p>
@@ -109,22 +109,22 @@ Ensure you have the following installed on your system:
 Follow these steps to get your development environment set up.
 
 1.  **Install Mininet, hping3, and System Dependencies**
-   The project requires the **`hping3`** tool for network attack simulation. Make sure it is installed along with Mininet.
 
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    sudo apt-get install mininet python3-venv git -y
+    The project requires the **`hping3`** tool for network attack simulation. Make sure it is installed along with Mininet.
+
+    ```bash
+    sudo apt update && sudo apt upgrade -y
+    sudo apt-get install mininet python3-venv git -y
+    # Installazione di hping3
+    sudo apt-get install -y hping3
+    ```
     
-    # Installazione di hping3
-    sudo apt-get install -y hping3
-    ```
-    
-    **Verifica e Pulizia:**
-    Verification and Cleanup: Run a simple Mininet test and clean the environment to ensure that `hping3` is recognized by the virtual hosts.
-    ```bash
-    sudo mn --test pingall
-    sudo mn -c
-    ```
+    **Verifica e Pulizia:**
+    Verification and Cleanup: Run a simple Mininet test and clean the environment to ensure that `hping3` is recognized by the virtual hosts.
+    
+    sudo mn --test pingall
+    sudo mn -c           
+   
     You can verify the `hping3` installation with: `hping3 --help` or `which hping3`.
 
 2.  **Clone the Repository**
