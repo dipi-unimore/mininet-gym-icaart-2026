@@ -185,13 +185,22 @@ Follow these steps to get your development environment set up.
 
 
 
-6.  **Run a Sample**
-    Mininet requires root privileges to create virtual network devices. 
+6.  **Run a Sample**
+    Mininet requires root privileges to create virtual network devices.
+
+    **Configuration Notes for `config.yaml`:**
     
-    ```bash
-    sudo python3 main.py
-    ```
-    This command will start a Mininet simulation, run your environment, and begin the training process.
+    * If you are using the **supervised agent**, you must set the correct traffic file path in the configuration:
+        * For **classification** experiments, use the **`traffic.csv`** file.
+        * For all other statuses/experiments, use the **`statuses.json`** file.
+    * In future versions, the goal is to consolidate the use of a single file type.
+
+    ```bash
+    sudo python3 main.py
+    ```
+    This command will start a Mininet simulation, run your environment, and begin the training process.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 7.  **OpenDayLight (ODL) Controller Setup (Optional)**
     For installing the OpenDayLight controller, follow the instructions provided in the [ODL-Ubuntu22-installation] guide. This project was developed with ODL Karaf version 0.8.4.
