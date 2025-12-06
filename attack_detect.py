@@ -103,7 +103,7 @@ def attack_detect_main(config, net_env: NetworkEnvAttackDetect):
                   
     except Exception as e: 
         #print(traceback.format_exc())
-        error(Fore.RED+f"Something went wrong!\n{e}\{traceback.format_exc()}\n"+Fore.WHITE)
+        error(Fore.RED+f"Something went wrong!\n{e}\n{traceback.format_exc()}\n"+Fore.WHITE)
     finally:
         # Stop the network when everything has finished
         information(Fore.WHITE)

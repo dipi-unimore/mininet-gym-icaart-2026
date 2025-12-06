@@ -1,18 +1,12 @@
 # main.py
-from reinforcement_learning.network_env import NetworkEnv #, agent_training, attack_monitor
 from reinforcement_learning.network_env_classification import NetworkEnvClassification
 from reinforcement_learning.network_env_attack_detect import NetworkEnvAttackDetect
 from traffic_classification import traffic_classification_main
 from attack_detect import attack_detect_main
-#from utility.my_statistics import plot_statutes
-from utility.my_files import copy_config_file_to_training_dir, create_directory_training_execution, save_data_to_file, drop_privileges, regain_root
+from utility.my_files import copy_config_file_to_training_dir, create_directory_training_execution, drop_privileges, regain_root
 from utility.params import read_config_file
-from utility.my_log import set_log_level, set_log_file, information, debug, error, notify_client
+from utility.my_log import set_log_level, set_log_file, information
 import time, random
-from colorama import Fore, Back, Style
-from app.app_api import start_api, change_config
-from app.app_socket import start_socket
-import threading
 import socket
 import requests
 

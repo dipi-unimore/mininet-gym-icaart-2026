@@ -113,7 +113,7 @@ def plot_agent_execution_confusion_matrix(indicators, dir_name):
         plt.savefig(f"{dir_name}/matrix.png")
         plt.close()
     except Exception as e: 
-        error(Fore.RED+f"Error!\n{e}\{traceback.format_exc()}\n"+Fore.WHITE)
+        error(Fore.RED+f"Error!\n{e}\n{traceback.format_exc()}\n"+Fore.WHITE)
     
 def plot_agent_execution_statuses(indicators, dir_name, title=''):
     """print all registered traffic normal or attack
@@ -416,7 +416,7 @@ def plot_test_confusion_matrix(dir_name,ground_truth, predicted, agent):
         plt.savefig(f"{dir_name}/{agent}_matrix.png")
         plt.close()  
     except Exception as e: 
-        error(Fore.RED+f"Error!\n{e}\{traceback.format_exc()}\n"+Fore.WHITE)
+        error(Fore.RED+f"Error!\n{e}\n{traceback.format_exc()}\n"+Fore.WHITE)
 
 #TODO: remove this function, not usefull, because now we have plot_cumulative_reward and 
 # the status traffic is the same for all agents
