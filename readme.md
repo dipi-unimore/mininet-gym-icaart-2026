@@ -36,7 +36,11 @@
       You only need to change the <em>gym_type</em> parameter within the sections: 
       <em>classification_from_dataset</em>, <em>classification_with_syncronize</em>, <em>attacks</em>, and <em>attacks_from_dataset</em>.
         <br />
-        In the <em>experiment</em> directory, you can find the two completed execution sets of data (in/out) and charts.
+        In the <em>experiments_icaart_2026</em> directory, you can find the two completed execution sets of data (in/out) and charts:
+        <ul>
+          <li><em>attack_detection/20250709-105720_1_10_1.zip</em></li>
+          <li><em>classification/20250708-190552_1_10_1.zip</em></li>
+        </ul>
     </p>
     <hr>
   <p>
@@ -81,7 +85,7 @@ Real-time traffic generation and flow monitoring via Mininet and Custom Gym envi
 **Framework Architecture:** The schema illustrates the framework architecture. A deep explanation can be found in the section on the cited **[mininet-gym-paper]**.
 
 ![Product Screen Shot][product-screenshot]
-**Web Interface for Flow Monitoring**: Real-time visualization of network traffic and DDoS attack metrics registered per second during a simulation.
+**Web Interface for Flow Monitoring**: Real-time visualization of network traffic and DDoS attack metrics registered per second during a simulation. **NOTE:** This ICAART fork version does **not** have the Web UI enabled. For the complete UI functionality, please clone the **<a href="https://github.com/dipi-unimore/mininet-gym">main repository</a>**.
 
 
 ---

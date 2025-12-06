@@ -34,21 +34,7 @@ def main():
     #save_data_to_file(config_dict, training_execution_directory, "config")    
     regain_root()
         
-    if (False):
-        # Create a thread for the Flask app
-        socket_thread = threading.Thread(target=start_socket, args=(config_dict,))
-        # Start the thread (this will run the Flask app without blocking the main thread)
-        socket_thread.start()    
-        #wait_for_socket_start()
-        api_thread = threading.Thread(target=start_api, args=(config_dict,))
-        # Start the thread (this will run the Flask app without blocking the main thread)
-        api_thread.start()    
-        #wait_for_api_start()
-        while True:
-            time.sleep(2)
-            traffic_type = random.choice(config.env_params.traffic_types)
-            information(f"{traffic_type}")
-    
+   
     if config.env_params.gym_type.startswith("attacks"):
         # Create Network
         information("Creating network and environment")
