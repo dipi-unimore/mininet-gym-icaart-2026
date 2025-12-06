@@ -37,7 +37,7 @@
       <em>classification_from_dataset</em>, <em>classification_with_syncronize</em>, <em>attacks</em>, and <em>attacks_from_dataset</em>.
         <br />
         In the <em>experiments_icaart_2026</em> directory, you can find the two completed execution sets of data (in/out) and charts:
-        <ul>
+        <ul align="left">
           <li><em>attack_detection/20250709-105720_1_10_1.zip</em></li>
           <li><em>classification/20250708-190552_1_10_1.zip</em></li>
         </ul>
